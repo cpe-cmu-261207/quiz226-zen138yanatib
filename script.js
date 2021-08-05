@@ -13,7 +13,7 @@ search.onclick = () => {
   var stringOut = "";
   for(let i=0;i<myArr.length;i++){
     if(myArr[i].length >= length){
-      stringOut += myArr[i].fontcolor(color);
+      stringOut += myArr[i].fontcolor(color) + " ";
     }else{
       stringOut += myArr[i] + " ";
     }
